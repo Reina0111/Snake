@@ -35,7 +35,7 @@ public class Snake {
         score = 0;
         snakeParts.clear();
         head = new Point(0, 0);
-        taillength = 30;
+        taillength = 3;
         direction = DOWN;
     }
 
