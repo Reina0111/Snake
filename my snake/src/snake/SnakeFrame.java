@@ -136,7 +136,7 @@ public class SnakeFrame implements ActionListener, KeyListener {
                 }
             }
 
-            if(snake.snakeParts.size() > snake.taillength){
+            if(snake.snakeParts.size() > snake.taillength && !theEnd){
                 snake.snakeParts.remove(0);
             }
 
